@@ -9,12 +9,10 @@ plugins {
 }
 
 dependencies {
+    implementation(libs.picocli)
     implementation(libs.slf4j.api)
-    implementation("info.picocli:picocli:$picoCliVersion")
-
-    runtimeOnly("org.apache.logging.log4j:log4j-slf4j-impl:$log4jVersion")
-
-    testImplementation("org.junit.jupiter:junit-jupiter-api:$junitVersion")
-
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitVersion")
+    implementation(libs.slf4j.log4j.impl)
+    implementation(libs.slf4j.logback.impl)
+    implementation(libs.junit.jupiter.core)
+    implementation(libs.junit.jupiter.engine)
 }
