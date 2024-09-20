@@ -1,0 +1,41 @@
+[33mcommit de19e1e9a2dc35fb122da3ab8785d7c94ede29b2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mpractice-2a[m[33m, [m[1;31morigin/practice-2a[m[33m)[m
+Author: Tömöri Péter <tomoripeti2003@gmail.com>
+Date:   Fri Sep 13 09:32:35 2024 +0200
+
+    Automatic build on push Workflow added
+
+[33mcommit 5d10566a724a7966836aaaa3b6d255f8f66460c5[m
+Author: Tömöri Péter <tomoripeti2003@gmail.com>
+Date:   Fri Sep 13 09:28:04 2024 +0200
+
+    Gradle setup added
+
+[33mcommit 756048f0c64d8399e8a5047d82b683a39b83d2bb[m[33m ([m[1;31mase-labs/practice-2a[m[33m)[m
+Author: Armin Zavada <zavadaarmin@edu.bme.hu>
+Date:   Mon Sep 9 18:45:10 2024 +0200
+
+    Replaced log4j2 api with slf4j api
+
+[33mcommit 8439551df9cbd8f2ea166fd1a8c3c18d3d2e4905[m
+Author: Armin Zavada <zavadaarmin@edu.bme.hu>
+Date:   Mon Sep 9 17:06:35 2024 +0200
+
+    Added test files and practice wiki link.
+
+[33mcommit 49dcbabe07e8f9a6159661973e332623aeb2d736[m
+Author: Armin Zavada <zavadaarmin@edu.bme.hu>
+Date:   Mon Sep 9 14:33:10 2024 +0200
+
+    Moved shingler to root directory
+
+[33mcommit 9c7c0a54c66a01bce80666fddbe399191495907d[m
+Author: Armin Zavada <zavadaarmin@edu.bme.hu>
+Date:   Mon Sep 9 12:37:21 2024 +0200
+
+    Added the starting version of practice 2a
+
+[33mcommit 07216e17b336e47c84dcab74881a7d9afca49c34[m
+Author: Armin Zavada <zavadaarmin@edu.bme.hu>
+Date:   Mon Sep 9 11:58:09 2024 +0200
+
+    Initial commit

@@ -6,3 +6,11 @@
  */
 
 rootProject.name = "Shingler"
+
+//subprojects
+include(
+    "lib",
+    "logic",
+    "similarity",
+    "diversity",
+)

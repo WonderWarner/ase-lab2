@@ -18,6 +18,9 @@ val log4jVersion = "2.23.1"
 val junitVersion = "5.10.0"
 
 dependencies {
+    implementation(project(":lib"))
+    implementation(project(":logic"))
+
     implementation("org.slf4j:slf4j-api:$slf4jVersion")
     implementation("info.picocli:picocli:$picoCliVersion")
 
@@ -26,6 +29,8 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:$junitVersion")
 
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitVersion")
+
+
 }
 
 tasks {
@@ -41,5 +46,5 @@ tasks {
 }
 
 application {
-    mainClass = "hu.bme.mit.ase.shingler.similarity.SimilarityApp"
+    mainClass = "hu.bme.mit.ase.shingler.diversity.DiversityApp"
 }
